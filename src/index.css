@@ -1,0 +1,33 @@
+
+body {
+  background: linear-gradient(135deg, #1f283e 0%, #0c1221 100%);
+  min-height: 100vh;
+  color: #fff;
+}
+
+.custom-card-shadow {
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.45) !important;
+  border: none; 
+  border-radius: 1rem;
+}
+
+/* Custom style for the form buttons */
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    transition: all 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+    transform: translateY(-1px);
+}
+
+/* Utility to center content on the page */
+.center-content {
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
